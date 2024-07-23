@@ -34,7 +34,7 @@ fun_bar() {
 res1() {
    cd
     wget https://raw.githubusercontent.com/AdijayaTunneling/gagal/main//Cdy/menu.zip
-    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/AdijayaTunneling/gagal/main//Enc/encrypt" ; chmod +x /usr/bin/enc
+    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/AdijayaTunneling/gagal/main/Enc/encrypt" ; chmod +x /usr/bin/enc
     7z x -pAdijaya@Tunneling menu.zip
     chmod +x menu/*
     enc menu/*
