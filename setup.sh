@@ -32,7 +32,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "\033[96;1m┌─────────────────────────────────────────────────┐\033[0m "
-echo -e "\e[33;1m│\e[0m \033[95;1m                    ADIJAYA                    \033[0m \e[33;1m│\e[0m"
+echo -e "\e[96;1m│\e[0m \033[41;1;97;1m                ADIJAYA TUNNELING              \033[0m \e[96;1m│\e[0m"
 echo -e "\033[96;1m└─────────────────────────────────────────────────┘\033[0m "
 echo ""
 sleep 3
@@ -106,7 +106,7 @@ sts="${Error}"
 fi
 echo -e "\e[32mloading...\e[0m"
 clear
-REPO="https://siluman.my.id/"
+REPO="https://raw.githubusercontent.com/AdijayaTunneling/gagal/main/"
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
@@ -448,7 +448,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service limit Quota"
-wget https://siluman.my.id/Fls/limit.sh && chmod +x limit.sh && ./limit.sh
+wget raw.githubusercontent.com/AdijayaTunneling/gagal/main/Fls/limit.sh && chmod +x limit.sh && ./limit.sh
 cd
 wget -q -O /usr/bin/limit-ip "${REPO}Fls/limit-ip"
 chmod +x /usr/bin/*
@@ -794,12 +794,12 @@ print_success "All Packet"
 function menu(){
 clear
 print_install "Memasang Menu Packet"
-wget ${REPO}Cdy/menu1.zip
-7z x -pHeyHeyMauDecryptYaAwokawok menu1.zip
+wget ${REPO}Cdy/menu.zip
+7z x -pAdijaya@Tunneling menu.zip
 chmod +x menu/*
 mv menu/* /usr/local/sbin
 rm -rf menu
-rm -rf menu1.zip
+rm -rf menu.zip
 }
 function profile(){
 clear
@@ -810,7 +810,7 @@ if [ -f ~/.bashrc ]; then
 fi
 fi
 mesg n || true
-menu
+welcome
 EOF
 cat >/etc/cron.d/log_clear <<-END
 		8 0 * * * root /usr/local/bin/log_clear
@@ -958,19 +958,12 @@ secs_to_human "$(($(date +%s) - ${start}))"
 sudo hostnamectl set-hostname $username
 clear
 echo -e ""
-echo -e ""
 echo -e "\033[96;1m┌─────────────────────────────────────────────────┐\033[0m "
 echo -e "\e[96;1m│\e[0m \033[41;1;97;1m               INSTALL SUCCESFULLY             \033[0m \e[96;1m│\e[0m"
 echo -e "\033[96;1m└─────────────────────────────────────────────────┘\033[0m "
 echo -e ""
-sleep 2
-clear
-echo -e "\033[93;1m Wait inn 4 sec...\033[0m"
-sleep 4
-clear
-echo ""
-echo ""
-echo ""
-read -p "Press [ Enter ]  TO REBOOT"
-clear
-reboot
+read -p " Reboot or Menu (R/w)? " zxzx
+case $zxzx in
+R) reboot ;;
+w) clear ; welcome ;;
+esac
