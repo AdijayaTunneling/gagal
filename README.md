@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=35&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=HAYOO.!! MAU NGAPAIN;Explore the world of features!" /></p>
+  <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=35&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=HAYOO.!! MAU NGAPAIN;Dasar kere lu anak yatim!" /></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=35&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=MAU MALING YA LU WKWK;Explore the world of features!" /></p>
+  <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=35&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=MAU MALING YA LU WKWK;Fuck.........🖕!" /></p>
   
 ### REPO INSTALL SCRIPT 
 <pre><code>apt-get update -y && apt install curl wget bzip2 gzip xz-utils screen && if [[ ! -d /etc/xdtmp ]]; then mkdir -p /etc/xdtmp; fi && wget -q https://raw.githubusercontent.com/AdijayaTunneling/gagal/main/setup.sh && chmod +x setup.sh && ./setup.sh</code></pre>
