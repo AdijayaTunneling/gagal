@@ -14,7 +14,7 @@ REPOSC="https://raw.githubusercontent.com/Garut-SisiBukit/VVIP/main"
 
 # TELEGRAMKU
 CHATID="-1002285656734"
-TOKENBOT="6957152015:AAHe7oyXbCr0qlSTTqn4nvM4Ol2-r6jqpLI"
+TOKENBOT="8035282741:AAEJ22OP2a1wvvnpM265jxlh3x-awESISJw"
 
 # cek cek vps dulu kak
 cd /root
@@ -374,7 +374,7 @@ function TERAKHIR(){
 ╔▬▭▬▭▭✦༒✦▬▭▬▭▭╗
       ADIJAYA VPN
 ╚▬▭▬▭▭✦༒✦▬▭▬▭▭╝
-</code>"'&reply_markup={"inline_keyboard":[[{"text":"🔥TELEGRAM","url":"https://t.me/AdijayaStoreVpn"},{"text":"WHATSAPP 🔥","url":"wa.me/6281214726068"}]]}'
+</code>"'&reply_markup={"inline_keyboard":[[{"text":"🔥TELEGRAM","url":"https://t.me/AdijayaStoreVpn1"},{"text":"WHATSAPP 🔥","url":"wa.me/6281214726068"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 [B
