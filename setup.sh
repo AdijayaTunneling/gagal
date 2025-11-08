@@ -707,8 +707,8 @@ res9
 function iinfo(){
 domain=$(cat /etc/xray/domain)
 TIMES="10"
-CHATID="6924645951"
-KEY="7556091175:AAGnyeEfaszncocBIkAB_kviN1adUpNJxGw"
+CHATID="-1002285656734"
+KEY="8035282741:AAEJ22OP2a1wvvnpM265jxlh3x-awESISJw"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /etc/xray/isp)
 CITY=$(cat /etc/xray/city)
@@ -736,7 +736,7 @@ TEXT="
 <code>EXP SCRIPT : </code><code>$EXP Days</code>
 <code>━━━━━━━━━━━━━━━━━━━━</code>
 <i> Notifikasi Installer Script...</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"🔥ᴏʀᴅᴇʀ","url":"https://t.me/AdijayaStoreVpn"},{"text":"🔥GRUP","url":"https://t.me/configAdijaya"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"🔥ᴏʀᴅᴇʀ","url":"https://t.me/AdijayaStoreVpn1"},{"text":"🔥GRUP","url":"https://t.me/configAdijaya"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 clear
 }
